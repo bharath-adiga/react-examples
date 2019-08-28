@@ -1,0 +1,90 @@
+/* ********************CSS property for images***************** */
+.beerDetails .beerDetails_data .img {
+  display             : inline-block;
+  width               : 200px;
+  height              : 200px;
+  border-radius       : 0%;
+  border              : 2px solid  #92a8d1;
+  background-position : center center;
+  background-color    : #fff;
+  background-repeat   : no-repeat;
+  background-size     : contain;
+  box-shadow          : 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+.beerDetails .beerDetails_data {
+  display     : inline-flex;
+  flex-flow   : column nowrap;
+  align-items : center;
+  width       : 100%;
+  color       : #323232;
+}
+
+
+/* *******************CSS property for heading section above container ***************** */
+.beerDetails .beerDetails_data .name {
+  color       : #323232;
+  margin-top  : 20px;
+}
+
+.beerDetails .beerDetails_data .tagline {
+  color      : #323232;
+  margin-top : 20px;
+}
+
+
+BeerDetails.food_pairing{
+  padding          : 10px;
+  width            : 100%;
+  border-radius    : 25px;
+  background-color : #fff;
+  box-shadow       : 0 1px 1px rgba(0, 0, 0, .4);
+  overflow         : hidden;
+
+}
+.beerDetails .brewer_tip,
+.beerDetails .beerContainer{
+   text-align: center;
+}
+
+
+
+/* ********************CSS property inside main container***************** */
+.beerDetails .beerDetails_data .pairing,
+.beerDetails .beerDetails_data .hops {
+  display     : inline-flex;
+  flex-flow   : column nowrap;
+  align-items : center;
+  margin-top  : 20px;
+  width       : 680px;
+}
+
+.beerDetails .beerDetails_data .pairing p,
+.beerDetails .beerDetails_data .hops p {
+  width         : 60%;
+  text-align    : center;
+  border        : 2px dotted  #92a8d1;
+  padding       : 10px;
+  border-radius : 50px;
+}
+
+.beerDetails .beerDetails_data .pairing ul,
+.beerDetails .beerDetails_data .hops ul {
+  padding : 10px 40px;
+}
+
+
+
+/* ********************CSS property of back button***************** */
+
+
+.beerDetails .beerDetails_data .back {
+  width            : 200px;
+  height           : 30px;
+  line-height      : 30px;
+  color            : #fff;
+  text-align       : center;
+  background-color :  #92a8d1   ;
+  cursor           : pointer;
+  margin-top       : 20px;
+}

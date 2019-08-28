@@ -1,0 +1,97 @@
+
+/* ********************CSS property for Beer image***************** */
+
+.beerList .beerList_item .beer .beer_img {
+  display             : inline-block;
+  background-position : center center;
+  background-color    : #fff;
+  background-repeat   : no-repeat;
+  background-size     : contain;
+  width               : 40px;
+  height              : 40px;
+  margin              : 5px 0;
+  border              : 2px solid #92a8d1;
+  box-shadow          : 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+
+
+/* ********************CSS property for Beer display list and beer tile***************** */
+.beerList {
+  width           : 100%;
+  display         : inline-flex;
+  flex-flow       : row wrap;
+  justify-content : center;
+}
+
+.beerList .beerList_item {
+  width            : 200px;
+  height           : 220px;
+  margin           : 0 10px 10px 0;
+  border-radius    : 4px;
+  background-color : #fff;
+  box-shadow       : 0 1px 1px rgba(0, 0, 0, .4);
+  overflow         : hidden;
+}
+
+.beerList .beerList_item .beer {
+  position        : relative;
+  display         : inline-flex;
+  flex-flow       : column nowrap;
+  justify-content : center;
+  align-items     : center;
+  width           : 100%;
+  height          : 100%;
+  color           : #323232;
+  text-decoration : none;
+}
+
+.beerList .beerList_item .beer_button {
+  display          : block;
+  bottom           : 0;
+  width            : 100%;
+  height           : 40px;
+  line-height      : 40px;
+  text-align       : center;
+  color            : #fff;
+  background-color : #92a8d1;
+  cursor           : pointer;
+  box-shadow       : inset 0 1px 1px rgba(0, 0, 0, .4);
+}
+.beerList .beerList_item .beer .beer_name {
+  display       : inline-block;
+  height        : 40px;
+  min-height    : 40px;
+  text-align    : center;
+  font-family   : URW Chancery L, cursive;
+  text-overflow : ellipsis;
+  overflow      : hidden;
+}
+/* ********************CSS property for Add Favourite Button***************** */
+.beerList .beerList_item .beer .beer_tagline {
+  display          : inline-block;
+  padding          : 10px 5px;
+  width            : 100%;
+  height           : 40px;
+  text-align       : center;
+  font-size        : 10px;
+  color            : #fff;
+  background-color : #c3c3c3;
+  text-overflow    : ellipsis;
+  overflow         : hidden;
+  box-shadow       : inset 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+/* ********************CSS property for Add Favourite Button***************** */
+.beer_favourite{
+  display          : inline-block;
+  padding          : 10px 5px;
+  width            : 100%;
+  height           : 40px;
+  text-align       : center;
+  font-size        : 10px;
+  text-overflow    : ellipsis;
+  overflow         : hidden;
+  box-shadow       : inset 0 1px 1px rgba(0, 0, 0, .4);
+}
+
